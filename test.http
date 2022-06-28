@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/members/
+
+###
+POST http://localhost:3000/api/members
+Content-Type: application/json
+
+{
+    "id": 12,
+    "name": "Wke",
+    "team": "marketing",
+    "position": "Sales Manager",
+    "emailAddress": "mich232@google.com",
+    "phoneNumber": "010-xxxx-xxxx",
+    "admissionDate": "2222/12/12",
+    "birthday": "1995/01/31",
+    "profileImage": "profile12.png"
+}
+
+###
+PUT http://localhost:3000/api/members/1
+Content-Type: application/json
+
+{
+    "name": "Daniel"
+    
+}
+
+###
+DELETE  http://localhost:3000/api/members/10
